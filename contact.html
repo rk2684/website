@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | three tea cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body id="top">
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <p>three tea cafe</p>
+            </a>
+        </div>
+        <div id="nav-wrapper" class="nav-wrapper">
+            <div class="hamburger" id="js-hamburger">
+                <span class="hamburger__line hamburger__line--1"></span>
+                <span class="hamburger__line hamburger__line--2"></span>
+                <span class="hamburger__line hamburger__line--3"></span>
+            </div>
+            <nav class="sp-nav">
+                <ul>
+                    <li><a href="index.html">Top</a></li>
+                    <li><a href="index.html#news">News</a></li>
+                    <li><a href="index.html#shop">Shop</a></li>
+                    <li><a href="recomend.html">Recomend</a></li>
+                    <li><a href="access.html">Access</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="black-bg" id="js-black-bg"></div>
+        </div>
+    </header>
+    <!-- ヘッダーここまで -->
+    <div class="hero contact">
+        <h1>Contact</h1>
+    </div>
+
+
+    <!-- メイン -->
+    <main>
+        <form>
+            <p>
+                <label for="kind">お問い合わせの種類 <br></label>
+                <select name="kind" id="kind">
+                    <option value="1">ご予約</option>
+                    <option value="2">当店に関するお問い合わせ</option>
+                    <option value="3">その他</option>
+                </select>
+            </p>
+            <p>
+                はじめてのご来店ですか？<br>
+                <label>
+                    <input type="radio" name="first" value="yes" checked>はい
+                </label><br>
+                <label>
+                    <input type="radio" name="first" id="no">いいえ
+                </label>
+            </p>
+            <p>
+                当カフェをお知りになったきっかけは？<br>
+                <label>
+                    <input type="checkbox" name="how" value="friend">知り合いの紹介で
+                </label><br>
+                <label><input type="checkbox" name="how" value="magazine">SNS、Webサイト、雑誌などを見て</label>
+            </p>
+            <p>
+                <label for="subject">
+                    お問い合わせの件名
+                </label><br>
+                <input type="text" name="subject" placeholder="タイトル" id="subject">
+            </p>
+            <p>
+                <label for="message">お問い合わせの具体的な内容</label><br>
+                <textarea name="message" id="message"></textarea>
+            </p>
+            <p class="submit">
+                <input type="submit" value="送信">
+            </p>
+        </form>
+    </main>
+    <!-- メインここまで -->
+    <!-- フッター -->
+    <footer>
+
+        <div class="gotop">
+            <div class="arrow"><a href="#top"><img src="images/arrow.png" alt="トップに戻る"></a></div>
+            <div class="pagetop"><img src="images/pagetop.png" alt="pagetop"></div>
+        </div>
+        <p class="copyright">Copyright&copy;three tea cafe All Rights Reserved.</p>
+    </footer>
+    <!-- フッターここまで -->
+</body>
+<a href="https://www.freepik.com/free-vector/realistic-laptop-with-smartphone_35202611.htm#query=%E3%83%A2%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97&position=11&from_view=search&track=ais">Image by juicy_fish</a> on Freepik
+</html>
